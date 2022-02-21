@@ -33,43 +33,5 @@ namespace SonicaWebAdmin.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
-        public IActionResult Restart()
-        {
-            return View();
-        }
-
-        public IActionResult Upload()
-        {
-            return View();
-        }
-
-        public IActionResult DownloadAndEdit()
-        {
-            return View();
-        }
-
-        public IActionResult Download()
-        {
-            return View();
-        }
-
-        public IActionResult DownloadAndDebug()
-        {
-            return View();
-        }
-
-        public IActionResult SoftwareUpdate()
-        {
-            return View();
-        }
-
-        public IActionResult GetLog()
-        {
-            var name = $"Sonica.Device.Logs.{DateTime.Now:yyyyMMdd.hh.mm.ss}.zip";
-            byte[] fileBytes = { 0, 0, 0, 0, 0 };
-
-            return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, name);
-        }
     }
 }

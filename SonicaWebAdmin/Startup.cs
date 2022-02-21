@@ -26,6 +26,8 @@ namespace SonicaWebAdmin
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddControllers();
+
             services.AddMvc(options =>
                 options.EnableEndpointRouting = false);
         }
@@ -53,16 +55,16 @@ namespace SonicaWebAdmin
 
             app.UseMvc(routes =>
             {
-                routes.MapRoute(name: "default", template: "{controller=Values}/{action=ApiController}/{id?}");
+                routes.MapRoute(name: "default", template: "{controller=Values}/{action=ValuesController}/{id?}");
                 routes.MapRoute(name: "api", template: "api/{controller=Values}");
             });
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-            });
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapControllerRoute(
+            //        name: "default",
+            //        pattern: "{controller=Home}/{action=Index}/{id?}");
+            //});
 
             
         }
