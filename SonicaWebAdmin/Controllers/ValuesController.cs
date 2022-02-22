@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using SonicaWebAdmin.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +12,20 @@ namespace SonicaWebAdmin.Controllers
     [ApiController]
     public class ValuesController : Controller
     {
-        [Route("restart")]
-        public string Restart()
+        private readonly ILogger<ValuesController> _logger;
+        private IAvtukFactory _avtukFactory;
+
+        public ValuesController(ILogger<ValuesController> logger, IAvtukFactory avtukFactory)
         {
+            _logger = logger;
+            _avtukFactory = avtukFactory;
+        }
+
+        [Route("restart")]
+        public string Restart(string ip)
+        {
+            _avtukFactory.SetIpAddress(ip);
+            _logger.LogInformation("Hello world");
             return "1";
         }
 

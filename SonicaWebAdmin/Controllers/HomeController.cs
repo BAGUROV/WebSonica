@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace SonicaWebAdmin.Controllers
 {
+    [Route("api2/[controller]")]
+    [ApiController]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -18,20 +20,23 @@ namespace SonicaWebAdmin.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        [Route("index")]
+        public string Index()
         {
-            return View();
+            return "7";
         }
 
-        public IActionResult Privacy()
+        [Route("privacy")]
+        public string Privacy()
         {
-            return View();
+            return "8";
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        [Route("error")]
+        public ErrorViewModel Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier };
         }
     }
 }
