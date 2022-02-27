@@ -1,0 +1,47 @@
+2022-02-24 16:01:52.3483|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-02-24 16:01:53.0651|0|INFO|SonicaWebAdmin.Startup|Start |url: |action: |
+2022-02-24 16:01:53.3238|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-02-24 16:01:53.3238|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-02-24 16:01:53.3374|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-02-24 16:01:53.3374|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-02-24 16:01:53.3374|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-02-24 16:02:04.3499|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-02-24 16:02:04.9707|0|INFO|SonicaWebAdmin.Startup|Start |url: |action: |
+2022-02-24 16:02:05.2111|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-02-24 16:02:05.2111|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-02-24 16:02:05.2111|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-02-24 16:02:05.2111|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-02-24 16:02:05.2111|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-02-24 16:03:25.1135|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-02-24 16:03:26.3441|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-02-24 16:03:26.3441|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-02-24 16:03:26.3514|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-02-24 16:03:26.3514|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-02-24 16:03:26.3514|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-02-24 16:04:11.7688|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-02-24 16:04:12.6583|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-02-24 16:04:12.6650|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-02-24 16:04:12.6650|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-02-24 16:04:12.6650|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-02-24 16:04:12.6650|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-02-24 16:04:25.4737|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-02-24 16:04:26.4017|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-02-24 16:04:26.4017|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-02-24 16:04:26.4017|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-02-24 16:04:26.4017|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-02-24 16:04:26.4134|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-02-24 16:04:52.2530|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-02-24 16:04:53.1229|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-02-24 16:04:53.1324|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-02-24 16:04:53.1324|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-02-24 16:04:53.1324|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-02-24 16:04:53.1324|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-02-24 16:05:02.6199|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-02-24 16:05:03.5395|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-02-24 16:05:03.5395|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-02-24 16:05:03.5395|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-02-24 16:05:03.5395|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-02-24 16:05:03.5395|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-02-24 16:05:04.1223|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[72] |url: https://localhost/|action: |
+2022-02-24 16:05:09.0675|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-02-24 16:05:09.0719|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[30] |url: https://localhost/api/Values/restart|action: Restart|

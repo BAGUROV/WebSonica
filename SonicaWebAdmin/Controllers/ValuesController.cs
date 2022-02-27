@@ -2,9 +2,6 @@
 using Microsoft.Extensions.Logging;
 using SonicaWebAdmin.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SonicaWebAdmin.Controllers
 {
@@ -18,6 +15,7 @@ namespace SonicaWebAdmin.Controllers
         public ValuesController(ILogger<ValuesController> logger, IAvtukFactory avtukFactory)
         {
             _logger = logger;
+            _logger.LogDebug(1, "NLog injected into ValuesController");
             _avtukFactory = avtukFactory;
         }
 
@@ -25,7 +23,7 @@ namespace SonicaWebAdmin.Controllers
         public string Restart(string ip)
         {
             _avtukFactory.SetIpAddress(ip);
-            _logger.LogInformation("Hello world");
+            _logger.LogInformation("restart");
             return "1";
         }
 

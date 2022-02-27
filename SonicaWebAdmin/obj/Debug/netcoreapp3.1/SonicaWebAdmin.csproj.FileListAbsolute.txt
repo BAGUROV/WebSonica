@@ -322,7 +322,6 @@ C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\
 C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\obj\Debug\netcoreapp3.1\SonicaWebAdmin.csproj.AssemblyReference.cache
 C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\obj\Debug\netcoreapp3.1\SonicaWebAdmin.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\obj\Debug\netcoreapp3.1\SonicaWebAdmin.AssemblyInfoInputs.cache
 C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\obj\Debug\netcoreapp3.1\SonicaWebAdmin.AssemblyInfo.cs
@@ -337,3 +336,7 @@ C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\obj\Debug\netcoreapp3.1\
 C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\obj\Debug\netcoreapp3.1\SonicaWebAdmin.dll
 C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\obj\Debug\netcoreapp3.1\SonicaWebAdmin.pdb
 C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\obj\Debug\netcoreapp3.1\SonicaWebAdmin.genruntimeconfig.cache
+C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
