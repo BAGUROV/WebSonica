@@ -340,3 +340,8 @@ C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\
 C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\NLog.dll
 C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\obj\Debug\netcoreapp3.1\SonicaWebAdmin.csproj.AssemblyReference.cache
+C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\protobuf-net.dll
+C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\protobuf-net.Core.dll
+C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\YamlDotNet.dll

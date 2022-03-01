@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6B2j93MguRgNBPMMFLy7k6mIDjQxAjAamxAijjomlvvAV2SIfzGa5B9n4rqwImSk+ChBm6MCOlOUlxi6RcLZpA==",
+  "dgSpecHash": "SqQvvcrF/alJfBNprvjVg0aF5TNgvdpyTExYdJAMa4WIgNDWzpmfmOJr7aPLGf8SprEKFi9hgC8QShPhtSrC0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\bla\\source\\repos\\SonicaWebAdmin\\SonicaWebAdmin\\SonicaWebAdmin.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\bla\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\bla\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.20\\microsoft.aspnetcore.mvc.razor.extensions.3.1.20.nupkg.sha512",
     "C:\\Users\\bla\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.20\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.20.nupkg.sha512",
     "C:\\Users\\bla\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.20\\microsoft.aspnetcore.razor.language.3.1.20.nupkg.sha512",
@@ -25,13 +26,16 @@
     "C:\\Users\\bla\\.nuget\\packages\\nlog\\4.7.14\\nlog.4.7.14.nupkg.sha512",
     "C:\\Users\\bla\\.nuget\\packages\\nlog.extensions.logging\\1.7.4\\nlog.extensions.logging.1.7.4.nupkg.sha512",
     "C:\\Users\\bla\\.nuget\\packages\\nlog.web.aspnetcore\\4.14.0\\nlog.web.aspnetcore.4.14.0.nupkg.sha512",
+    "C:\\Users\\bla\\.nuget\\packages\\protobuf-net\\3.0.101\\protobuf-net.3.0.101.nupkg.sha512",
+    "C:\\Users\\bla\\.nuget\\packages\\protobuf-net.core\\3.0.101\\protobuf-net.core.3.0.101.nupkg.sha512",
     "C:\\Users\\bla\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
     "C:\\Users\\bla\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\bla\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\bla\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\bla\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Users\\bla\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\bla\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512"
+    "C:\\Users\\bla\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
+    "C:\\Users\\bla\\.nuget\\packages\\yamldotnet\\11.2.1\\yamldotnet.11.2.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -60,6 +60,7 @@ namespace SonicaWebAdmin.Controllers
         [Route("getlog")]
         public IActionResult GetLog()
         {
+            System.Threading.Thread.Sleep(10000);
             var name = $"Sonica.Device.Logs.{DateTime.Now:yyyyMMdd.hh.mm.ss}.zip";
             byte[] fileBytes = { 0, 0, 0, 0, 0 };
 
