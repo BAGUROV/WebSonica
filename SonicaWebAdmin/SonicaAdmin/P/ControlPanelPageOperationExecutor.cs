@@ -32,7 +32,7 @@ namespace SonicaWebAdmin.SonicaAdmin.P
             OperationResult result = null;
             try
             {
-                result = await op.ExecuteAsync();
+                result = op.ExecuteAsync();
                 switch (result)
                 {
                     case OperationResult.FailedResult failed:

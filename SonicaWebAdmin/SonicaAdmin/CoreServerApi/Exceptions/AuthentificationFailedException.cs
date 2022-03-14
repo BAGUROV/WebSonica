@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Auth.Exceptions
+namespace SonicaWebAdmin.SonicaAdmin.CoreServerApi.Exceptions
 {
     public class AuthentificationFailedException : Exception
     {

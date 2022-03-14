@@ -24,11 +24,10 @@ namespace SonicaWebAdmin.SonicaAdmin.Control.Operations
             protected set { _currentStateInfo = value; }
         }
 
-        public Task<OperationResult> ExecuteAsync() 
-            => ExecuteAsync(_cancelationSource.Token)
-                .WithAsyncCancelation(_cancelationSource.Token);
+        public OperationResult ExecuteAsync() 
+            => ExecuteAsync(_cancelationSource.Token);
 
-        protected abstract Task<OperationResult> ExecuteAsync(CancellationToken cancellationToken);
+        protected abstract OperationResult ExecuteAsync(CancellationToken cancellationToken);
 
 
     }

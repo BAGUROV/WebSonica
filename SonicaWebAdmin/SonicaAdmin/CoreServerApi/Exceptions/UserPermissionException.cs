@@ -1,7 +1,7 @@
 ﻿using SonicaWebAdmin.SonicaAdmin.Entities;
 using System;
 
-namespace Auth.Exceptions
+namespace SonicaWebAdmin.SonicaAdmin.CoreServerApi.Exceptions
 {
     public class UserPermissionException: Exception
     {

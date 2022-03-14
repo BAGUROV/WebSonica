@@ -4,9 +4,13 @@ using SonicaWebAdmin.Models.Avtuk;
 using SonicaWebAdmin.Services;
 using SonicaWebAdmin.SonicaAdmin;
 using SonicaWebAdmin.SonicaAdmin.Control.Operations;
+using SonicaWebAdmin.SonicaAdmin.CoreServerApi;
 using SonicaWebAdmin.SonicaAdmin.CoreServerApi.Contract;
+using SonicaWebAdmin.SonicaAdmin.CoreServerApi.Scope;
+using SonicaWebAdmin.SonicaAdmin.Entities;
 using SonicaWebAdmin.SonicaAdmin.P;
 using SonicaWebAdmin.SonicaAdmin.P.Startup;
+using SonicaWebAdmin.SonicaAdmin.Tools;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
@@ -25,6 +29,7 @@ namespace SonicaWebAdmin.Controllers
         private AvtukModel _avtukModel;
         private ControlPanelPageOperationExecutor _executor;
         private readonly CancellationTokenSource _cancellationTokenSource;
+        private static bool IsReleasedSystem { get; set; }
 
         public ValuesController(ILogger<ValuesController> logger, IAvtukFactory avtukFactory)
         {
@@ -41,7 +46,17 @@ namespace SonicaWebAdmin.Controllers
             try
             {
                 _loadingStatus = $"Подключение к {_avtukFactory.Ip}";
-                connection = new ServerApiContract(null,null,null);
+
+                var guestUser = SonicaAdmin.Entities.User.Create("admin", "admin", UserRole.Administrator);
+                var userCollectionRepository = new UserCollectionRepository(
+                new[]
+                {
+                    SonicaAdmin.Entities.User.Create("dev",   "dev",   UserRole.Developer),
+                    SonicaAdmin.Entities.User.Create("user",  "user",  UserRole.User),
+                    guestUser
+                });
+
+                connection = new ServerApiContract(new UserService(userCollectionRepository, guestUser.GetInfo()),new ServerApiScope(), Restrictions.Create());
                 //connection = await CoreServerApi.ConnectAsync(
                 //        endPoint: new IPEndPoint(_avtukFactory.Ip, settings.Port),
                 //        timeOutInMs: settings.MaxAwaitTimeOutInMs)
@@ -50,7 +65,7 @@ namespace SonicaWebAdmin.Controllers
                 _avtukModel = new AvtukModel(_avtukFactory, settings, connection);
                 _loadingStatus = "Аутентификация";
 
-                var loginResult = await _avtukModel.LoginAsync("admin", "admin", _cancellationTokenSource.Token)
+                var loginResult =  _avtukModel.LoginAsync("admin", "admin", _cancellationTokenSource.Token)
                     .WithAsyncCancelation(_cancellationTokenSource.Token);
 
                 if (!loginResult.Succes)
@@ -61,14 +76,14 @@ namespace SonicaWebAdmin.Controllers
                 }
 
                 _loadingStatus = "Получение разрешений";
-                var permissions = await _avtukModel.UpdatePermissionsAsync(_cancellationTokenSource.Token)
+                var permissions =  _avtukModel.UpdatePermissionsAsync(_cancellationTokenSource.Token)
                     .WithAsyncCancelation(_cancellationTokenSource.Token);
 
                 _loadingStatus = "Обновление информации";
-                await _avtukModel.UpdateCurrentMetricsAsync(_cancellationTokenSource.Token)
+                 _avtukModel.UpdateCurrentMetricsAsync(_cancellationTokenSource.Token)
                     .WithAsyncCancelation(_cancellationTokenSource.Token);
 
-                await _avtukModel.UpdateSystemInfoAsync(_cancellationTokenSource.Token)
+                 _avtukModel.UpdateSystemInfoAsync(_cancellationTokenSource.Token)
                     .WithAsyncCancelation(_cancellationTokenSource.Token);
 
                 if (!permissions.IsDeviceActivated)

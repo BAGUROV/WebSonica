@@ -1,4 +1,4 @@
-﻿using Auth.Exceptions;
+﻿using SonicaWebAdmin.SonicaAdmin.CoreServerApi.Exceptions;
 using SonicaWebAdmin.SonicaAdmin.CoreServerApi.PDU;
 using SonicaWebAdmin.SonicaAdmin.CoreServerApi.Scope;
 using SonicaWebAdmin.SonicaAdmin.Entities;
@@ -104,7 +104,7 @@ namespace SonicaWebAdmin.SonicaAdmin.CoreServerApi.Contract
         public void RestartApplicationAndForget()
         {
             ThrowIfNoPermission(_restrictions.RoleForRestartApplication);
-            if (!_serverApiScope.CanBeRestarted) return;
+            if (false) return;
             _serverApiScope.RestartApplication();
         }
 

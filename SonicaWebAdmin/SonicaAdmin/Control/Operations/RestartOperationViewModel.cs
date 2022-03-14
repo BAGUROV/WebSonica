@@ -13,10 +13,10 @@ namespace SonicaWebAdmin.SonicaAdmin.Control.Operations
             _avtuk = avtuk;
         }
 
-        protected override async Task<OperationResult> ExecuteAsync(CancellationToken cancellationToken)
+        protected override OperationResult ExecuteAsync(CancellationToken cancellationToken)
         {
             CurrentStateInfo = "Перезапускаем";
-            if (await _avtuk.TryRestartAsync())
+            if (_avtuk.TryRestartAsync())
                 return OperationResult.Failed("При перезапуске устройства что то пошло не так");
             return OperationResult.Successfully("Устройство будет перезапущено.");
         }

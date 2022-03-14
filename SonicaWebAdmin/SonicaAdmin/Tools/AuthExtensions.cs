@@ -1,4 +1,4 @@
-﻿using Auth.Exceptions;
+﻿using SonicaWebAdmin.SonicaAdmin.CoreServerApi.Exceptions;
 using SonicaWebAdmin.SonicaAdmin.Entities;
 
 namespace SonicaWebAdmin.SonicaAdmin.Tools

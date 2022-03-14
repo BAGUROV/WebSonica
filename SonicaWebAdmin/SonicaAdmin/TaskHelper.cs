@@ -9,12 +9,12 @@ namespace SonicaWebAdmin.SonicaAdmin
         /// Завершает таску сразу по приходу отмены.
         /// Оригинальная таска прододлжает работать, и мы ее теряем из контроля
         /// </summary>
-        public static async Task<T> WithAsyncCancelation<T>(this Task<T> task, CancellationToken cancellationToken)
+        public static T WithAsyncCancelation<T>(this Task<T> task, CancellationToken cancellationToken)
         {
             var cancelationTask = Task.Run(() => WaitHandle.WaitAny(new[] { cancellationToken.WaitHandle }));
 
             //ждем либо таску либо отмену
-            await Task.WhenAny(cancelationTask, task);
+             Task.WhenAny(cancelationTask, task);
             if (cancellationToken.IsCancellationRequested)
             {
                 //Таска взбесится от того что ее отменили и исключение не обработали. Поэтому исключения в таске мы игнорируем

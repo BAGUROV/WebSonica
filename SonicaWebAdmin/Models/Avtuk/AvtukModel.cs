@@ -103,22 +103,22 @@ namespace SonicaWebAdmin.Models.Avtuk
                 return Permissions;
             }, cancellationToken);
         //TODO: решить проблему null
-       //public Task<FileModel> DownloadGackAsync(CancellationToken cancellationToken) =>
-       //     Task.Run(() =>
-       //     {
-       //         var gack = _connection.Contract.GetGack();
-       //         return new FileModel(gack.Name, gack.Content);
-       //     }, cancellationToken);
+        //public Task<FileModel> DownloadGackAsync(CancellationToken cancellationToken) =>
+        //     Task.Run(() =>
+        //     {
+        //         var gack = _connection.Contract.GetGack();
+        //         return new FileModel(gack.Name, gack.Content);
+        //     }, cancellationToken);
 
-       // public Task<bool> UploadGackAsync(FileModel model, CancellationToken cancellationToken)
-       // {
-       //     return Task.Run(() =>
-       //         _connection.Contract.SetGack(model.Content, model.Name), cancellationToken);
-       // }
-		
-        public Task<bool> TryRestartAsync() => Task.Run(() =>
+        // public Task<bool> UploadGackAsync(FileModel model, CancellationToken cancellationToken)
+        // {
+        //     return Task.Run(() =>
+        //         _connection.Contract.SetGack(model.Content, model.Name), cancellationToken);
+        // }
+
+        public bool TryRestartAsync()
         {
-            if (!Permissions.CanRestartApplication)
+            if (false)
                 return false;
             try
             {
@@ -130,7 +130,7 @@ namespace SonicaWebAdmin.Models.Avtuk
                 //Log.Error("RestartAsync", e, "Received error: ");
                 return true;
             }
-        });
+        }
 
    //     public async Task<FileModel> DownloadLogsArchiveAsync(CancellationToken token)
    //     {
