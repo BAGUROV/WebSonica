@@ -1,7 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Auth;
+using Auth.Entities;
+using Auth.Interfaces;
+using Core.ServerApi;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SonicaWebAdmin.Services;
 using System;
+using Sonica.Admin.Pages.ConnectionPage;
+using TNT.Core.Tcp;
+using TNT.Core.Api;
+using System.Net;
+using Sonica.Admin;
+using System.Threading;
+using System.Threading.Tasks;
+using SonicaWebAdmin.Services;
 
 namespace SonicaWebAdmin.Controllers
 {
@@ -10,21 +21,22 @@ namespace SonicaWebAdmin.Controllers
     public class ValuesController : Controller
     {
         private readonly ILogger<ValuesController> _logger;
-        private IAvtukFactory _avtukFactory;
+        private readonly IContract _contract;
 
-        public ValuesController(ILogger<ValuesController> logger, IAvtukFactory avtukFactory)
+        public ValuesController(ILogger<ValuesController> logger, IContract contract)
         {
             _logger = logger;
+            _contract = contract;
+
             _logger.LogDebug(1, "NLog injected into ValuesController");
-            _avtukFactory = avtukFactory;
         }
 
         [Route("restart")]
-        public string Restart(string ip)
+        public async Task<bool> Restart(string ip)
         {
-            _avtukFactory.SetIpAddress(ip);
+            
             _logger.LogInformation("restart");
-            return "1";
+            return await _contract.AvtukModel.TryRestartAsync();
         }
 
         [Route("upload")]

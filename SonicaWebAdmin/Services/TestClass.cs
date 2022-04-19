@@ -1,19 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Net;
 
 namespace SonicaWebAdmin.Services
 {
-    public class TestClass : ITestClass
+    public static class TestClass
     {
-        public int Send()
+        public static IPAddress SetIpAddress(string address)
         {
-            return 1;
+            if (address == null)
+                return null;
+
+            var test = address.Split('.');
+            byte[] arrayAddress = test.Select(byte.Parse).ToArray();
+            return new IPAddress(arrayAddress);
         }
-    }
-    public interface ITestClass
-    {
-        int Send();
     }
 }

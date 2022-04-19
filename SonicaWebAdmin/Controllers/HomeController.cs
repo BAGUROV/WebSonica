@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SonicaWebAdmin.Models;
 using System.Diagnostics;
 
 namespace SonicaWebAdmin.Controllers
@@ -29,11 +28,5 @@ namespace SonicaWebAdmin.Controllers
             return "8";
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        [Route("error")]
-        public ErrorViewModel Error()
-        {
-            return new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier };
-        }
     }
 }

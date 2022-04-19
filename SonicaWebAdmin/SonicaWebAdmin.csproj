@@ -24,6 +24,28 @@
 
   <ItemGroup>
     <Folder Include="Logs\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Auth">
+      <HintPath>..\..\..\..\Desktop\Work Sonica\sonica\tests\Shell\Shell.ElementsView.Tests\bin\Debug\netcoreapp3.1\Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Sonica.Admin">
+      <HintPath>..\..\..\..\Desktop\Work Sonica\sonica\src\Applications\Sonica.Admin\obj\Debug\netcoreapp3.1\Sonica.Admin.dll</HintPath>
+    </Reference>
+    <Reference Include="Sonica.Core">
+      <HintPath>..\..\..\..\Desktop\Work Sonica\sonica\tests\Shell\Shell.ElementsView.Tests\bin\Debug\netcoreapp3.1\Sonica.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sonica.Core.ServerApi">
+      <HintPath>..\..\..\..\Desktop\Work Sonica\sonica\tests\Shell\Shell.ElementsView.Tests\bin\Debug\netcoreapp3.1\Sonica.Core.ServerApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Televizor">
+      <HintPath>..\..\..\..\Desktop\Work Sonica\sonica\src\Shell\Elements\Views\Shell.ReportDesigner.Views\bin\Debug\netcoreapp3.1\Televizor.dll</HintPath>
+    </Reference>
+    <Reference Include="TNT.Core">
+      <HintPath>..\..\..\..\Desktop\Work Sonica\sonica\src\Shell\Elements\Views\Shell.ReportDesigner.Views\bin\Debug\netcoreapp3.1\TNT.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

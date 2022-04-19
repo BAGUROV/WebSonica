@@ -28,17 +28,15 @@ namespace SonicaWebAdmin
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IAvtukFactory, AvtukFactory>();
+            services.AddScoped<IContract, ServerApiContract>();
 
-            services.AddControllersWithViews();
             services.AddControllers();
-
             services.AddMvc(options =>
                 options.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IAvtukFactory test, ILogger<Startup> logger)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger)
         {
             app.UseMiddleware<ResponseTime>();
             if (env.IsDevelopment())
@@ -53,6 +51,7 @@ namespace SonicaWebAdmin
                 app.UseHsts();
             }
 
+            app.UseDeveloperExceptionPage();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -72,19 +71,6 @@ namespace SonicaWebAdmin
                 routes.MapRoute(name: "default", template: "{controller=Home}/{action=HomeController}/{id?}");
                 routes.MapRoute(name: "api2", template: "api2/{controller=Home}");
             });
-
-            app.Run(async (context) =>
-            {
-                var t = context.Response.Headers;
-            });
-
-
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapControllerRoute(
-            //        name: "default",
-            //        pattern: "{controller=Home}/{action=Index}/{id?}");
-            //});
         }
     }
 }
