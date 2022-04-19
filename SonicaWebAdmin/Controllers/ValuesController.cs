@@ -32,7 +32,7 @@ namespace SonicaWebAdmin.Controllers
         }
 
         [Route("restart")]
-        public async Task<bool> Restart(string ip)
+        public async Task<bool> Restart()
         {
             
             _logger.LogInformation("restart");
