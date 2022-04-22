@@ -1,18 +1,13 @@
+using Core.ServerApi;
+using Core.ServerApi.Contract;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Logging.Debug;
 using SonicaWebAdmin.Middleware;
-using SonicaWebAdmin.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Net;
 
 namespace SonicaWebAdmin
 {
@@ -25,18 +20,16 @@ namespace SonicaWebAdmin
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IContract, ServerApiContract>();
+            services.AddSingleton(CoreServerApi.Connect(endPoint: new IPEndPoint(new IPAddress(new byte[] { 172, 16, 29, 222 }), 17177)).Contract);
 
             services.AddControllers();
             services.AddMvc(options =>
                 options.EnableEndpointRouting = false);
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger, IServerApiContract contract)
         {
             app.UseMiddleware<ResponseTime>();
             if (env.IsDevelopment())

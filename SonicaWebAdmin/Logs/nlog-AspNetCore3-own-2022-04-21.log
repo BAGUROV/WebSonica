@@ -1,0 +1,497 @@
+2022-04-21 13:06:40.2511|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:06:42.8072|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:06:42.8225|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:06:42.8225|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:06:42.8225|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:06:42.8225|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:06:43.9226|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[164] |url: https://localhost/|action: |
+2022-04-21 13:07:04.5025|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[2262] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 13:08:57.6287|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:08:58.6379|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:08:58.6379|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:08:58.6483|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:08:58.6483|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:08:58.6483|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:08:59.8250|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[64] |url: https://localhost/|action: |
+2022-04-21 13:10:06.0046|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.FormatException: The header contains invalid values at index 0: 'Sonica.Device.Logs.20220421.01.09.12.zip'
+   at Microsoft.Net.Http.Headers.HttpHeaderParser`1.ParseValue(StringSegment value, Int32& index)
+   at Microsoft.Net.Http.Headers.MediaTypeHeaderValue.Parse(StringSegment input)
+   at Microsoft.AspNetCore.Mvc.FileContentResult..ctor(Byte[] fileContents, String contentType)
+   at Microsoft.AspNetCore.Mvc.ControllerBase.File(Byte[] fileContents, String contentType, String fileDownloadName)
+   at Microsoft.AspNetCore.Mvc.ControllerBase.File(Byte[] fileContents, String contentType)
+   at SonicaWebAdmin.Controllers.ValuesController.GetLog() in C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\Controllers\ValuesController.cs:line 82
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 13:10:06.1748|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[53538] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 13:10:22.1389|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:10:23.1665|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:10:23.1794|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:10:23.1794|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:10:23.1794|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:10:23.1794|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:10:24.3294|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[70] |url: https://localhost/|action: |
+2022-04-21 13:10:46.1945|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.FormatException: The header contains invalid values at index 0: 'dsd'
+   at Microsoft.Net.Http.Headers.HttpHeaderParser`1.ParseValue(StringSegment value, Int32& index)
+   at Microsoft.Net.Http.Headers.MediaTypeHeaderValue.Parse(StringSegment input)
+   at Microsoft.AspNetCore.Mvc.FileContentResult..ctor(Byte[] fileContents, String contentType)
+   at Microsoft.AspNetCore.Mvc.ControllerBase.File(Byte[] fileContents, String contentType, String fileDownloadName)
+   at Microsoft.AspNetCore.Mvc.ControllerBase.File(Byte[] fileContents, String contentType)
+   at SonicaWebAdmin.Controllers.ValuesController.GetLog() in C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\Controllers\ValuesController.cs:line 82
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 13:10:46.2682|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[8685] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 13:11:16.4023|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:11:17.4136|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:11:17.4136|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:11:17.4136|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:11:17.4136|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:11:17.4136|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:11:18.6045|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[66] |url: https://localhost/|action: |
+2022-04-21 13:20:20.3684|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.FormatException: The header contains invalid values at index 0: 'dsd'
+   at Microsoft.Net.Http.Headers.HttpHeaderParser`1.ParseValue(StringSegment value, Int32& index)
+   at Microsoft.Net.Http.Headers.MediaTypeHeaderValue.Parse(StringSegment input)
+   at Microsoft.AspNetCore.Mvc.FileContentResult..ctor(Byte[] fileContents, String contentType)
+   at Microsoft.AspNetCore.Mvc.ControllerBase.File(Byte[] fileContents, String contentType, String fileDownloadName)
+   at Microsoft.AspNetCore.Mvc.ControllerBase.File(Byte[] fileContents, String contentType)
+   at SonicaWebAdmin.Controllers.ValuesController.GetLog() in C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\Controllers\ValuesController.cs:line 82
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 13:20:20.4427|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[532802] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 13:20:30.7724|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:20:31.7681|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:20:31.7786|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:20:31.7786|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:20:31.7786|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:20:31.7786|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:20:32.6345|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[73] |url: https://localhost/|action: |
+2022-04-21 13:21:47.7270|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.FormatException: The header contains invalid values at index 0: 'dsd'
+   at Microsoft.Net.Http.Headers.HttpHeaderParser`1.ParseValue(StringSegment value, Int32& index)
+   at Microsoft.Net.Http.Headers.MediaTypeHeaderValue.Parse(StringSegment input)
+   at Microsoft.AspNetCore.Mvc.FileContentResult..ctor(Byte[] fileContents, String contentType)
+   at Microsoft.AspNetCore.Mvc.ControllerBase.File(Byte[] fileContents, String contentType, String fileDownloadName)
+   at Microsoft.AspNetCore.Mvc.ControllerBase.File(Byte[] fileContents, String contentType)
+   at SonicaWebAdmin.Controllers.ValuesController.GetLog() in C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\Controllers\ValuesController.cs:line 82
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 13:21:47.7907|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[65709] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 13:22:08.2971|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:22:09.3759|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:22:09.3823|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:22:09.3823|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:22:09.3823|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:22:09.3823|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:22:10.1732|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[68] |url: https://localhost/|action: |
+2022-04-21 13:22:30.4645|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:22:31.4849|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:22:31.4926|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:22:31.4926|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:22:31.4926|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:22:31.4926|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:23:23.9054|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:23:24.9219|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:23:24.9281|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:23:24.9281|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:23:24.9281|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:23:24.9281|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:23:25.9008|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[63] |url: https://localhost/|action: |
+2022-04-21 13:23:43.9687|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:23:44.9803|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:23:44.9908|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:23:44.9908|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:23:44.9908|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:23:44.9908|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:23:45.9422|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[65] |url: https://localhost/|action: |
+2022-04-21 13:24:13.2479|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:24:14.2784|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:24:14.2881|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:24:14.2881|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:24:14.2881|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:24:14.2881|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:24:15.2379|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[63] |url: https://localhost/|action: |
+2022-04-21 13:26:39.6418|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:26:40.6191|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:26:40.6191|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:26:40.6191|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:26:40.6191|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:26:40.6314|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:26:41.6636|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[66] |url: https://localhost/|action: |
+2022-04-21 13:26:47.3182|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1950] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 13:31:10.4382|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:31:11.4436|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:31:11.4436|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:31:11.4436|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:31:11.4436|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:31:11.4436|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:31:12.4034|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[67] |url: https://localhost/|action: |
+2022-04-21 13:31:18.8940|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1936] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 13:31:40.9848|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:31:41.9735|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:31:41.9810|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:31:41.9810|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:31:41.9810|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:31:41.9810|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:31:42.9026|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[65] |url: https://localhost/|action: |
+2022-04-21 13:31:49.4913|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1955] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 13:34:26.1826|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 13:34:27.1366|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 13:34:27.1366|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 13:34:27.1366|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 13:34:27.1366|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 13:34:27.1470|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 13:34:28.1054|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[70] |url: https://localhost/|action: |
+2022-04-21 13:34:33.1795|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1955] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 15:03:54.7214|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 15:03:55.7498|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 15:03:55.7582|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 15:03:55.7582|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 15:03:55.7582|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 15:03:55.7582|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 15:03:56.6538|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[75] |url: https://localhost/|action: |
+2022-04-21 15:04:06.8798|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[0] |url: https://localhost/|action: |
+2022-04-21 15:04:07.5495|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1929] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 15:04:49.9412|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:05:11.6109|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[23779] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:05:21.1592|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:05:52.3534|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[33852] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:06:01.3802|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:06:01.4045|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1689] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:06:07.5308|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:06:15.6293|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[9507] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:06:25.5037|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:07:03.1526|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[40125] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:15:29.7546|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 15:15:30.7522|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 15:15:30.7585|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 15:15:30.7585|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 15:15:30.7585|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 15:15:30.7585|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 15:15:31.9349|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[84] |url: https://localhost/|action: |
+2022-04-21 15:16:16.9281|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:16:22.0355|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at SonicaWebAdmin.Controllers.ValuesController.Restart() in C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\Controllers\ValuesController.cs:line 42
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:16:22.1523|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[7390] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:16:29.5668|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:16:38.1578|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[10717] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:16:46.7395|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:16:50.1796|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[4073] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:16:55.0919|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:16:56.9589|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[3148] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:17:17.3271|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:17:17.3782|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1076] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:17:23.2930|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:17:26.9384|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[4146] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:17:52.9555|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:17:52.9930|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[2767] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:17:58.1379|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:17:58.2431|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[105] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:04.7070|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:04.7124|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[5] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:06.8543|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:06.8543|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[26] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:08.4189|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:08.4189|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[4] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:09.8664|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:09.8664|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[5] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:14.8860|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:14.8860|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[6] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:22.7215|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:22.7275|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[6] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:25.3556|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:18:25.3988|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[43] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:19:13.5651|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 15:19:17.0155|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[3450] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:02:13.6951|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 22:02:32.6967|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 22:02:32.6967|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 22:02:32.7091|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 22:02:32.7091|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 22:02:32.7091|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 22:02:33.5682|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[269] |url: https://localhost/|action: |
+2022-04-21 22:02:51.6845|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at SonicaWebAdmin.Controllers.ValuesController.GetLog() in C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\Controllers\ValuesController.cs:line 80
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 22:02:51.9724|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[12728] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 22:02:56.8406|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1362] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 22:03:00.2789|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1259] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 22:03:22.9812|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:03:25.2100|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[2233] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:21:51.3959|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 22:25:12.5819|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 22:27:32.0123|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 22:27:36.6548|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 22:27:36.6651|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 22:27:36.6651|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 22:27:36.6651|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 22:27:36.6651|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 22:27:37.8242|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[72] |url: https://localhost/|action: |
+2022-04-21 22:27:59.1344|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[13256] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 22:28:30.4688|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:28:32.3508|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. TNT.Core.Exceptions.Local.ConnectionIsLostException: Connection is lost during the transaction. MessageId: 2035, AskId: 2
+   at TNT.Core.Presentation.Interlocutor.AnswerAwaiter.WaitOrThrow(Int32 msec) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Presentation\Interlocutor.cs:line 237
+   at TNT.Core.Presentation.Interlocutor.Ask[T](Int32 messageId, Object[] values) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Presentation\Interlocutor.cs:line 74
+   at IServerApiContract_1.RestartApplicationAndThrow()
+   at SonicaWebAdmin.Controllers.ValuesController.Restart() in C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\Controllers\ValuesController.cs:line 31
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:28:32.4326|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[3256] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:30:22.8015|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 22:30:24.7941|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 22:30:24.7941|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 22:30:24.7941|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 22:30:24.7941|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 22:30:24.8097|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 22:30:26.0618|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[82] |url: https://localhost/|action: |
+2022-04-21 22:30:42.2795|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:30:42.3729|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[2836] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:31:05.0789|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:31:13.8080|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[8729] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:31:23.8339|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:31:23.8570|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[23] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:31:24.6998|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:31:24.7193|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[20] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:34:18.0069|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 22:34:21.4798|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 22:34:21.4928|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 22:34:21.4928|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 22:34:21.4928|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 22:34:21.4928|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 22:34:22.2239|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[78] |url: https://localhost/|action: |
+2022-04-21 22:34:28.2779|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1440] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 22:34:33.6427|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1277] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 22:58:37.0155|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 22:58:40.5093|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 22:58:40.5219|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 22:58:40.5219|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 22:58:40.5219|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 22:58:40.5219|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 22:58:41.1753|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[68] |url: https://localhost/|action: |
+2022-04-21 22:59:04.3248|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:59:04.4237|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[109] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:59:35.3876|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[6942] |url: https://localhost/api/Values/reconnect|action: ReConnect|
+2022-04-21 22:59:47.1274|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:59:47.1554|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[28] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:59:49.0101|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 22:59:49.0319|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[22] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:06.6162|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[11013] |url: https://localhost/api/Values/reconnect|action: ReConnect|
+2022-04-21 23:00:17.3046|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:17.3275|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[23] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:19.6905|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:19.7137|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[23] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:20.5641|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:20.5849|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[21] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:21.1606|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:21.1829|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[22] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:21.7855|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:21.8088|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[23] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:22.3679|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:22.3894|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[22] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:22.8742|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:22.8949|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[21] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:23.4006|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:23.4219|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[21] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:23.8457|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:23.8649|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[19] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:24.3454|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:24.3665|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[21] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:25.0080|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:25.0285|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[20] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:25.5299|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:25.5509|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[21] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:26.0176|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:26.0412|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[24] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:34.5776|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:34.5999|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[22] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:00:51.5074|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:01:01.6617|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[12123] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:02:24.4240|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 23:02:33.6038|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 23:02:33.6148|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 23:02:33.6148|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 23:02:33.6148|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 23:02:33.6148|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 23:02:34.6406|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[73] |url: https://localhost/|action: |
+2022-04-21 23:02:43.3794|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:02:43.4583|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[3234] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:03:06.2540|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[28] |url: https://localhost/api/Values/reconnect|action: ReConnect|
+2022-04-21 23:03:12.8398|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:03:12.8642|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[2046] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:05:28.3231|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 23:05:32.5031|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 23:05:32.5093|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 23:05:32.5093|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 23:05:32.5093|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 23:05:32.5093|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 23:05:33.7469|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[74] |url: https://localhost/|action: |
+2022-04-21 23:05:47.5320|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1461] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 23:06:02.9963|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1302] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 23:06:10.6254|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:06:10.6334|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1849] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:07:50.9526|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[25] |url: https://localhost/api/Values/reconnect|action: ReConnect|
+2022-04-21 23:08:00.0765|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:08:00.1003|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[3530] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:08:09.4523|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. TNT.Core.Exceptions.Local.ConnectionIsLostException: tcp channel is not connected
+   at TNT.Core.Tcp.TcpChannel.Write(Byte[] data, Int32 offset, Int32 length) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Tcp\TcpChannel.cs:line 173
+   at TNT.Core.Transport.Transporter.Write(MemoryStream message) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Transport\Transporter.cs:line 54
+   at TNT.Core.Presentation.Sender.Write(Object[] values, ISerializer serializer, MemoryStream stream) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Presentation\Sender.cs:line 127
+   at TNT.Core.Presentation.Sender.Ask(Int16 id, Int16 askId, Object[] values) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Presentation\Sender.cs:line 88
+   at TNT.Core.Presentation.Messenger.Ask(Int16 id, Int16 askId, Object[] values) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Presentation\Messenger.cs:line 142
+   at TNT.Core.Presentation.Interlocutor.Ask[T](Int32 messageId, Object[] values) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Presentation\Interlocutor.cs:line 73
+   at IServerApiContract_1.GetLogArchive()
+   at SonicaWebAdmin.Controllers.ValuesController.GetLog() in C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\Controllers\ValuesController.cs:line 83
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 23:08:09.5519|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[3447] |url: https://localhost/api/Values/getlog|action: GetLog|
+2022-04-21 23:10:21.5749|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения |url: |action: |
+2022-04-21 23:10:25.3838|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 |url: |action: |
+2022-04-21 23:10:25.3838|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 |url: |action: |
+2022-04-21 23:10:25.3838|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-04-21 23:10:25.3838|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-04-21 23:10:25.3838|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin |url: |action: |
+2022-04-21 23:10:26.4825|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[77] |url: https://localhost/|action: |
+2022-04-21 23:10:34.1595|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:10:34.1818|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[32] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:10:54.5599|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:10:54.5783|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[19] |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:11:13.9123|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart |url: https://localhost/api/Values/restart|action: Restart|
+2022-04-21 23:11:13.9361|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[24] |url: https://localhost/api/Values/restart|action: Restart|

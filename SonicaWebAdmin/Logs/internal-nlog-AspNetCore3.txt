@@ -292,3 +292,183 @@
 2022-04-19 16:57:42.0909 Info Adding target FileTarget(Name=ownFile-web)
 2022-04-19 16:57:42.0909 Info Adding target ConsoleTarget(Name=lifetimeConsole)
 2022-04-19 16:57:42.1249 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-19 17:00:50.8701 Info Message Template Auto Format enabled
+2022-04-19 17:00:50.8701 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-19 17:00:50.9200 Info Adding target FileTarget(Name=allfile)
+2022-04-19 17:00:50.9280 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-19 17:00:50.9280 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-19 17:00:50.9583 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:06:40.1062 Info Message Template Auto Format enabled
+2022-04-21 13:06:40.1302 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:06:40.1760 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:06:40.1957 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:06:40.1957 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:06:40.2251 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:08:57.5028 Info Message Template Auto Format enabled
+2022-04-21 13:08:57.5140 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:08:57.5620 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:08:57.5785 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:08:57.5785 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:08:57.6051 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:10:22.0100 Info Message Template Auto Format enabled
+2022-04-21 13:10:22.0100 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:10:22.0681 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:10:22.0829 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:10:22.0836 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:10:22.1147 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:11:16.2984 Info Message Template Auto Format enabled
+2022-04-21 13:11:16.3077 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:11:16.3500 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:11:16.3500 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:11:16.3500 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:11:16.3802 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:20:30.6521 Info Message Template Auto Format enabled
+2022-04-21 13:20:30.6521 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:20:30.7060 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:20:30.7125 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:20:30.7125 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:20:30.7487 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:22:08.1915 Info Message Template Auto Format enabled
+2022-04-21 13:22:08.2018 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:22:08.2389 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:22:08.2468 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:22:08.2468 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:22:08.2751 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:22:30.3557 Info Message Template Auto Format enabled
+2022-04-21 13:22:30.3658 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:22:30.4063 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:22:30.4139 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:22:30.4139 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:22:30.4417 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:23:23.8044 Info Message Template Auto Format enabled
+2022-04-21 13:23:23.8044 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:23:23.8501 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:23:23.8501 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:23:23.8501 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:23:23.8831 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:23:43.8619 Info Message Template Auto Format enabled
+2022-04-21 13:23:43.8719 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:23:43.9110 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:23:43.9180 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:23:43.9180 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:23:43.9455 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:24:13.1334 Info Message Template Auto Format enabled
+2022-04-21 13:24:13.1334 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:24:13.1832 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:24:13.1951 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:24:13.1951 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:24:13.2249 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:26:39.5391 Info Message Template Auto Format enabled
+2022-04-21 13:26:39.5391 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:26:39.5838 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:26:39.5898 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:26:39.5898 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:26:39.6188 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:31:10.3316 Info Message Template Auto Format enabled
+2022-04-21 13:31:10.3429 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:31:10.3819 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:31:10.3819 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:31:10.3819 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:31:10.4154 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:31:40.8720 Info Message Template Auto Format enabled
+2022-04-21 13:31:40.8852 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:31:40.9300 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:31:40.9300 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:31:40.9300 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:31:40.9623 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 13:34:26.0789 Info Message Template Auto Format enabled
+2022-04-21 13:34:26.0893 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 13:34:26.1279 Info Adding target FileTarget(Name=allfile)
+2022-04-21 13:34:26.1346 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 13:34:26.1346 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 13:34:26.1613 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 15:03:54.6061 Info Message Template Auto Format enabled
+2022-04-21 15:03:54.6157 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 15:03:54.6537 Info Adding target FileTarget(Name=allfile)
+2022-04-21 15:03:54.6672 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 15:03:54.6672 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 15:03:54.6993 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 15:15:29.6415 Info Message Template Auto Format enabled
+2022-04-21 15:15:29.6544 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 15:15:29.6928 Info Adding target FileTarget(Name=allfile)
+2022-04-21 15:15:29.6997 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 15:15:29.6997 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 15:15:29.7319 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 22:02:13.4941 Info Message Template Auto Format enabled
+2022-04-21 22:02:13.5188 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 22:02:13.5864 Info Adding target FileTarget(Name=allfile)
+2022-04-21 22:02:13.6039 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 22:02:13.6039 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 22:02:13.6621 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 22:21:51.2889 Info Message Template Auto Format enabled
+2022-04-21 22:21:51.2889 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 22:21:51.3406 Info Adding target FileTarget(Name=allfile)
+2022-04-21 22:21:51.3406 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 22:21:51.3406 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 22:21:51.3732 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 22:25:12.4637 Info Message Template Auto Format enabled
+2022-04-21 22:25:12.4751 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 22:25:12.5194 Info Adding target FileTarget(Name=allfile)
+2022-04-21 22:25:12.5274 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 22:25:12.5274 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 22:25:12.5580 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 22:27:31.9038 Info Message Template Auto Format enabled
+2022-04-21 22:27:31.9138 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 22:27:31.9532 Info Adding target FileTarget(Name=allfile)
+2022-04-21 22:27:31.9601 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 22:27:31.9601 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 22:27:31.9889 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 22:30:22.6828 Info Message Template Auto Format enabled
+2022-04-21 22:30:22.6958 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 22:30:22.7370 Info Adding target FileTarget(Name=allfile)
+2022-04-21 22:30:22.7451 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 22:30:22.7451 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 22:30:22.7753 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 22:34:17.8946 Info Message Template Auto Format enabled
+2022-04-21 22:34:17.9133 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 22:34:17.9519 Info Adding target FileTarget(Name=allfile)
+2022-04-21 22:34:17.9519 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 22:34:17.9594 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 22:34:17.9852 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 22:58:36.9194 Info Message Template Auto Format enabled
+2022-04-21 22:58:36.9289 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 22:58:36.9629 Info Adding target FileTarget(Name=allfile)
+2022-04-21 22:58:36.9629 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 22:58:36.9629 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 22:58:36.9943 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 23:02:24.3165 Info Message Template Auto Format enabled
+2022-04-21 23:02:24.3267 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 23:02:24.3637 Info Adding target FileTarget(Name=allfile)
+2022-04-21 23:02:24.3714 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 23:02:24.3714 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 23:02:24.4011 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 23:05:28.2196 Info Message Template Auto Format enabled
+2022-04-21 23:05:28.2305 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 23:05:28.2672 Info Adding target FileTarget(Name=allfile)
+2022-04-21 23:05:28.2739 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 23:05:28.2739 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 23:05:28.3012 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-21 23:10:21.4670 Info Message Template Auto Format enabled
+2022-04-21 23:10:21.4766 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-21 23:10:21.5168 Info Adding target FileTarget(Name=allfile)
+2022-04-21 23:10:21.5233 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-21 23:10:21.5233 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-21 23:10:21.5509 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-22 10:22:31.2189 Info Message Template Auto Format enabled
+2022-04-22 10:22:31.2294 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-22 10:22:31.2758 Info Adding target FileTarget(Name=allfile)
+2022-04-22 10:22:31.2758 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-22 10:22:31.2758 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-22 10:22:31.3088 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-22 10:25:06.9838 Info Message Template Auto Format enabled
+2022-04-22 10:25:06.9958 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-22 10:25:07.0319 Info Adding target FileTarget(Name=allfile)
+2022-04-22 10:25:07.0383 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-22 10:25:07.0383 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-22 10:25:07.0695 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config
+2022-04-22 10:27:42.3425 Info Message Template Auto Format enabled
+2022-04-22 10:27:42.3546 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-22 10:27:42.3905 Info Adding target FileTarget(Name=allfile)
+2022-04-22 10:27:42.3968 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-22 10:27:42.3968 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-22 10:27:42.4243 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=58, FilePath=C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\bin\Debug\netcoreapp3.1\nlog.config

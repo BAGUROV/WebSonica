@@ -1,18 +1,8 @@
-﻿using Auth;
-using Auth.Entities;
-using Auth.Interfaces;
-using Core.ServerApi;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
-using Sonica.Admin.Pages.ConnectionPage;
-using TNT.Core.Tcp;
-using TNT.Core.Api;
-using System.Net;
-using Sonica.Admin;
-using System.Threading;
-using System.Threading.Tasks;
-using SonicaWebAdmin.Services;
+using Core.ServerApi.Contract;
+using SonicaWebAdmin.Models;
 
 namespace SonicaWebAdmin.Controllers
 {
@@ -21,22 +11,31 @@ namespace SonicaWebAdmin.Controllers
     public class ValuesController : Controller
     {
         private readonly ILogger<ValuesController> _logger;
-        private readonly IContract _contract;
+        private IServerApiContract _contract;
+        private readonly ConnectingAdmin _admin;
 
-        public ValuesController(ILogger<ValuesController> logger, IContract contract)
+        public ValuesController(ILogger<ValuesController> logger, IServerApiContract contract)
         {
             _logger = logger;
             _contract = contract;
-
+            _admin = new ConnectingAdmin();
             _logger.LogDebug(1, "NLog injected into ValuesController");
         }
 
         [Route("restart")]
-        public async Task<bool> Restart()
+        public string Restart()
         {
-            
             _logger.LogInformation("restart");
-            return await _contract.AvtukModel.TryRestartAsync();
+            try
+            {
+                _admin.ReConnect(ref _contract);
+                _contract.RestartApplicationAndForget();
+                return "Сервер перезагружен";
+            }
+            catch (Exception e)
+            {
+                return e.Message;
+            }
         }
 
         [Route("upload")]
@@ -72,11 +71,10 @@ namespace SonicaWebAdmin.Controllers
         [Route("getlog")]
         public IActionResult GetLog()
         {
-            System.Threading.Thread.Sleep(10000);
             var name = $"Sonica.Device.Logs.{DateTime.Now:yyyyMMdd.hh.mm.ss}.zip";
-            byte[] fileBytes = { 0, 0, 0, 0, 0 };
-
-            return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, name);
+            
+            var content = _contract.GetLogArchive();
+            return File(content.Content, System.Net.Mime.MediaTypeNames.Application.Zip, name);
         }
     }
 }
