@@ -1,0 +1,15 @@
+2022-05-17 11:45:48.1206|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения 
+2022-05-17 11:45:50.4722|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-05-17 11:45:50.4799|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-05-17 11:45:50.4799|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-05-17 11:45:50.4799|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-05-17 11:45:50.4799|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin 
+2022-05-17 11:45:51.9029|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[103] 
+2022-05-17 11:46:04.1053|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[0] 
+2022-05-17 12:19:37.1348|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения 
+2022-05-17 12:19:38.1517|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-05-17 12:19:38.1517|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-05-17 12:19:38.1517|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-05-17 12:19:38.1598|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-05-17 12:19:38.1598|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin 
+2022-05-17 12:19:39.3964|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[72] 

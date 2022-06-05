@@ -39,3 +39,54 @@
 2022-04-22 10:28:05.2300|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[42] 
 2022-04-22 10:28:07.4344|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart 
 2022-04-22 10:28:09.5240|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[2090] 
+2022-04-22 21:27:09.3589|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения 
+2022-04-22 21:27:11.7009|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-04-22 21:27:11.7087|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-04-22 21:27:11.7087|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-04-22 21:27:11.7087|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-04-22 21:27:11.7087|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin 
+2022-04-22 21:27:12.8209|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[94] 
+2022-04-22 21:27:26.6012|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart 
+2022-04-22 21:27:26.6203|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[29] 
+2022-04-22 21:27:53.8590|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart 
+2022-04-22 21:27:53.8786|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[20] 
+2022-04-22 21:28:40.8832|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. TNT.Core.Exceptions.Local.ConnectionIsLostException: tcp channel is not connected
+   at TNT.Core.Tcp.TcpChannel.Write(Byte[] data, Int32 offset, Int32 length) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Tcp\TcpChannel.cs:line 173
+   at TNT.Core.Transport.Transporter.Write(MemoryStream message) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Transport\Transporter.cs:line 54
+   at TNT.Core.Presentation.Sender.Write(Object[] values, ISerializer serializer, MemoryStream stream) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Presentation\Sender.cs:line 127
+   at TNT.Core.Presentation.Sender.Ask(Int16 id, Int16 askId, Object[] values) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Presentation\Sender.cs:line 88
+   at TNT.Core.Presentation.Messenger.Ask(Int16 id, Int16 askId, Object[] values) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Presentation\Messenger.cs:line 142
+   at TNT.Core.Presentation.Interlocutor.Ask[T](Int32 messageId, Object[] values) in C:\Users\bla\Desktop\Work Sonica\sonica\src\Frameworks\TNT.Core\Presentation\Interlocutor.cs:line 73
+   at IServerApiContract_1.GetLogArchive()
+   at SonicaWebAdmin.Controllers.ValuesController.GetLog() in C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin\Controllers\ValuesController.cs:line 76
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-22 21:28:41.0211|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[2374] 
+2022-04-22 21:28:49.0589|0|INFO|SonicaWebAdmin.Controllers.ValuesController|restart 
+2022-04-22 21:28:49.0727|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[14] 
+2022-04-22 21:29:04.6203|0|DEBUG|SonicaWebAdmin.Program|Запуск приложения 
+2022-04-22 21:29:05.6644|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-04-22 21:29:05.6644|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-04-22 21:29:05.6644|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-04-22 21:29:05.6644|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-04-22 21:29:05.6644|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\bla\source\repos\SonicaWebAdmin\SonicaWebAdmin 
+2022-04-22 21:29:06.5975|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[68] 
+2022-04-22 21:29:42.7212|0|INFO|SonicaWebAdmin.Startup|Время ответа(мс)[1520] 

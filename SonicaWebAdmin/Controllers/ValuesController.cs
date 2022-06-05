@@ -72,7 +72,6 @@ namespace SonicaWebAdmin.Controllers
         public IActionResult GetLog()
         {
             var name = $"Sonica.Device.Logs.{DateTime.Now:yyyyMMdd.hh.mm.ss}.zip";
-            
             var content = _contract.GetLogArchive();
             return File(content.Content, System.Net.Mime.MediaTypeNames.Application.Zip, name);
         }
